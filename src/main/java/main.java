@@ -38,6 +38,7 @@ public class main {
 
        for (int i = 0; i < presents.length; i++){
            System.out.println(presents[i]);
+           System.out.println("some changes");
        }
     }
 }
