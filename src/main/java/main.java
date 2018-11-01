@@ -35,10 +35,9 @@ public class main {
            presents[i] = factoryOfCandies.getCandies(candyName);
            candyName = "";
        }
-
-       for (int i = 0; i < presents.length; i++){
-           System.out.println(presents[i]);
-           System.out.println("some changes");
-       }
+       for (GetCandy items: presents) {
+           System.out.println(items);
+        }
+        System.out.println("weight left: "+ presentWeight);
     }
 }
